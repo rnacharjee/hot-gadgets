@@ -81,4 +81,8 @@ footer p{
     text-align: center;
     font-size: 15px;
 }
+.col-md-3{
+    align-items: center;
+    
+}
 
