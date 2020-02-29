@@ -1,3 +1,7 @@
+
+body{
+    font-family: 'Questrial', sans-serif ;
+}
 .buy-now-button{
     background-color: black;
     color: white;
@@ -5,14 +9,14 @@
     border-radius: 5px;
     padding: 5px 10px;
 }
-.container li.active{
+.carousel-indicators li.active{
     
-    background-color: yellow;
+    background-color: rgb(255, 174, 0);
     height: 10px;
     width: 35px;
     border-radius: 12px;
 }
-.container li{
+.carousel-indicators li{
     
     background-color:gray;
     height: 10px;
@@ -22,3 +26,59 @@
 #see-all{
     color: orange;
 }
+.card-title{
+    text-align: center;
+}
+.card-text:last-child {
+    text-align: center;
+}
+.card-footer:last-child {
+    background-color: white;
+    border: none;
+}
+.card-footer h2{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+}
+#navbarNavAltMarkup{
+    align-items: flex-end;}
+.section{
+    margin-top: 40px;
+    margin-bottom:30px ;
+}
+.category-box{
+    border: none;
+    box-shadow: 5px 5px 30px lightgray;
+    padding: 10%;
+    margin: 10%;
+    border-top-left-radius:30px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:5px;
+    
+}
+.category-box h4{
+    text-align: center;
+}
+.categories{
+    text-align: center;
+    align-items: center;
+}
+.Categories-underline{
+    background-image: linear-gradient(90deg,gold,orange);
+    height: 10px;
+    width: 100px;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+

@@ -5,28 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot-Gadgets</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <img src="images/logo.png" alt="hot-gadgets">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-              <div class="navbar-nav d-flex justify-content-end">
-                <a class="nav-item nav-link" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">Products</a>
-                <a class="nav-item nav-link" href="#">About Us</a>
-                <a class="nav-item nav-link" href="#">Contact Us</a>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-md navbar-light ">
+        <img src="images/logo.png" alt="hot-gadgets">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+          <div class="collapse navbar-collapse d-flex justify-content-end " id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item d-flex justify-content-center">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>    
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li> 
+            </ul>
+          
+        </div> 
+      </nav>  
+      
     </div>
 
-    <div class="container">
+    <div class="container section">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -37,8 +51,8 @@
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="col-md-6 banner-text ">
-                            <h3>Apple Mackbook Pro</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam beatae perferendis necess. </p>
+                            <h3>Apple Macbook Pro</h3>
+                            <p>Apples Latest Macbook. Best in the world</p>
                             <button class="buy-now-button">Buy Now ➜</button>
 
                         </div>
@@ -86,47 +100,144 @@
     </div>
 
 
-    <div class="container">
+    <div class="container section">
       <div class="d-flex justify-content-between align-items-center">
         <h2 >Smartphone</h2>
       <h4 id=see-all>See All</h4>
       </div>
-      <div class="card-deck">
-        <div class="card">
+      <div class="card-deck ">
+        <div class="card d-flex align-items-center">
           <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="card-body ">
+            <h3 class="card-title">Redmi K30 Pro</h3>
+            <p class="card-text">best midranger smartphone in the year 2020</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <h2>$399</h2>
+            <button class="buy-now-button">Buy Now ➜</button>
           </div>
         </div>
-        <div class="card">
+        <div class="card d-flex align-items-center">
           <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <div class="card-body ">
+            <h3 class="card-title">Iphone 11 Pro</h3>
+            <p class="card-text">best flagship  smartphone in the year 2020 from APPLE</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <h2>$1299</h2>
+            <button class="buy-now-button">Buy Now ➜</button>
           </div>
         </div>
-        <div class="card">
+        <div class="card d-flex align-items-center">
           <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <div class="card-body ">
+            <h3 class="card-title">Samsung Galaxy S11</h3>
+            <p class="card-text">Worlds best flagship from samsung electronics</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+            <h2>$1199</h2>
+            <button class="buy-now-button">Buy Now ➜</button>
           </div>
         </div>
       </div>
 
     </div>
+
+    <div class="container section">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 >Laptop</h2>
+      <h4 id=see-all>See All</h4>
+      </div>
+      <div class="card-deck ">
+        <div class="card d-flex align-items-center">
+          <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h3 class="card-title">Asus VivoBook</h3>
+            <p class="card-text">ASUS VivoBook is the perfect combination of beauty and performance. Available in multiple colors and finishes, VivoBook 17 is a Windows 10 laptop powered by a 8th Generation Intel® Core™ i7 processor with 16GB RAM and NVIDIA® GeForce® 940MX graphics*</p>
+          </div>
+          <div class="card-footer">
+            <h2>$999</h2>
+            <button class="buy-now-button">Buy Now ➜</button>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h3 class="card-title">Razer Blade 15</h3>
+            <p class="card-text">The new Razer Blade 15 (Select Advanced Model) is now available with the world’s first optical laptop switches in a gaming laptop. All models have options for the latest 6-Core Intel® Core™ processors and NVIDIA® GeForce RTX™ graphics</p>
+          </div>
+          <div class="card-footer">
+            <h2>$2799</h2>
+            <button class="buy-now-button">Buy Now ➜</button>
+          </div>
+        </div>
+        <div class="card d-flex align-items-center">
+          <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h3 class="card-title">Xiaomi Mi Notebook Pro</h3>
+            <p class="card-text">Mi Notebook Pro 15.6 sports an 8th generation Intel Core processor up to 4.0GHz coupled with the next-generation GeForce MX150 graphics card. The laptop offers advanced performance, power efficiency, and realistic gameplay.</p>
+          </div>
+          <div class="card-footer">
+            <h2>$999</h2>
+            <button class="buy-now-button">Buy Now ➜</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container">
+      
+            <h2 class="categories">Categories</h2>
+          
+            <div class="d-flex justify-content-center">
+              <h6 class="Categories-underline"> </h6>
+            </div>
+          
+      <div class="row">
+        <div class="col-md-3 d-flex align-items-center">
+          <div class="category-box ">
+            <img class="img-responsive" width="100%" src="images/Categories/bag.png" alt="">
+          <h4>Bag</h4>
+          </div>
+
+        </div>
+        <div class="col-md-3 d-flex flex-column ">
+          <div class="category-box">
+            <img class="img-responsive" width="100%" src="images/Categories/perfume.png" alt="">
+            <h4>Beauty</h4>
+          </div>
+          <div class="category-box">
+            <img class="img-responsive" width="100%" src="images/Categories/shoe.png" alt="">
+            <h4>Shoe</h4>
+          </div>
+         
+        </div>
+        
+        <div class="col-md-6  pale-order">
+          <div>
+            <img class="img-responsive" width="100%" src="images/Categories/pale-order.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>© 2020 All Right Reserved. Raj Narayan Acharjee, Dhaka.  </p>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
